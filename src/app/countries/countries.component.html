@@ -1,0 +1,15 @@
+<div> 
+<p>countries works!</p>
+<div>
+    <div class="header-div">
+    <div class="cell-div">Country</div>
+    <div class="cell-div">Total Confirmed</div> 
+    <div class="cell-div"> Toatal Recovered</div>       
+    </div>
+    <div>
+    <app-country *ngFor="let country of countries" [country]="country"></app-country>
+    </div>
+</div>
+
+</div>
+

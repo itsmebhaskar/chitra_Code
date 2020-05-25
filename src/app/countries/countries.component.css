@@ -1,0 +1,11 @@
+.header-div{
+    display: flex;
+    background-color: #030341;
+    padding: 10px;
+    color: white;
+
+}
+
+.cell-div{
+width: 33%;
+}
